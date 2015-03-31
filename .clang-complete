@@ -1,0 +1,8 @@
+-std=c++11
+-I/usr/include/qt4
+-I/usr/include/qt4/Qt
+-I/usr/include/qt4/QtCore
+-I/usr/include/qt4/QtSql
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtNetwork
+

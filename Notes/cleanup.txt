@@ -1,0 +1,20 @@
+directory: ATSarf/src/build
+file: functions.cpp
+    1. Removed conditional code branch for INSERT_ONLY_SUFFIXES
+       Macro definition commented out in ATSarf/apps/gui/test.h
+    2. Removed conditional code branch for INSERT_ONLY_PREFIXES
+       Macro definition commented out in ATSarf/apps/gui/test.h
+    3. Removed conditional code branch for INSERT_ONLY_AFFIXES
+       Macro definition commented out in ATSarf/apps/gui/test.h
+    4. Removed contitional code branch for INSERT_ONLY_NAMES
+       Macro definition commented out in ATSarf/apps/gui/test.h
+    5. Removed conditional code branch for SAMA
+       Macro definition commented out in ATSarf/apps/gui/test.h
+    6. Removed conditional code branch for AUGMENT_ORIGINAL
+       Macro definition commented out in ATSarf/apps/gui/test.h
+    TODO: Explicitly defined code branches #ifdef 1 and #ifdef 0
+          infunction int insert_proper_names()
+
+directory: ATSarf/src/cache
+file: database_info_block.h
+    1. Kept
