@@ -15,6 +15,7 @@ Search_by_item_locally::Search_by_item_locally(item_types type, long long id, lo
     list = map->values(ItemEntryKey(id, category_id, raw_data));
     index = 0;
 }
+
 bool Search_by_item_locally::retrieve(minimal_item_info &info) {
     if (index < list.size()) {
         info.abstract_categories = list[index].first;

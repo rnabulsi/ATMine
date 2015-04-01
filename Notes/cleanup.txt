@@ -17,4 +17,21 @@ file: functions.cpp
 
 directory: ATSarf/src/cache
 file: database_info_block.h
-    1. Kept
+    1. Kept conditional code branch for USE_TRIE
+       Macro defined in ATSarf/src/common/common.h
+
+file: database_info_block.cpp
+    1. Kept conditional code branch for REDUCE_THRU_DIACRITICS
+       Macro defined in ATSarf/src/common/common.h
+    2. Kept conditional code branch for LOAD_FROM_FILE
+       Macro defined in ATSarf/src/common/common.h
+    3. Kept conditional code branch for USE_TRIE
+       Macro defined at ATSarf/src/common/common.h
+
+file: compatibility_rules.h
+    TODO: Explictly defined code branches #ifdef 1 and #ifdef 0
+          in function int getAbstractCategoryID(const QString &)
+
+file: compatibilty_rules.cpp
+    1. Kept conditional code branch for LOAD_FROM_FILE
+       Macro defined in ATSarf/src/common/common.h
