@@ -1,8 +1,12 @@
 --std=c++11
--I /usr/include/qt4
--I /usr/include/qt4/Qt
--I /usr/include/qt4/QtCore
--I /usr/include/qt4/QtSql
--I /usr/include/qt4/QtGui
--I /usr/include/qt4/QtNetwork
+--enable=all
+-I ./ATSarf/src/build
+-I ./ATSarf/src/cache
+-I ./ATSarf/src/case
+-I ./ATSarf/src/common
+-I ./ATSarf/src/log
+-I ./ATSarf/src/markov
+-I ./ATSarf/src/sarf
+-I ./ATSarf/src/sql
+-I ./ATSarf/src/util
 

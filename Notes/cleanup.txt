@@ -35,3 +35,18 @@ file: compatibility_rules.h
 file: compatibilty_rules.cpp
     1. Kept conditional code branch for LOAD_FROM_FILE
        Macro defined in ATSarf/src/common/common.h
+
+directory: ATSarf/src/case
+file: abstractAnnotator.h
+file: abstractAnnotator.cpp
+file: abstractGraph.h
+file: AbstractTwoLevelAgreement.h
+
+file: AbstractTwoLevelAgreement.cpp
+    1. Removed condtional code branch for SUBMISSION
+       Macro definition commented out in ATSarf/src/case/hadith.h
+
+file: AbstractTwoLevelAnnotator.h
+
+file: affix_verification.cpp
+
